@@ -7,7 +7,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 node_modules/
-
+smarkm-varcalculator-datasource
 # yarn
 .yarn/cache
 .yarn/unplugged
