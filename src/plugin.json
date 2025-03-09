@@ -6,7 +6,7 @@
   "info": {
     "description": "This Grafana data source plugin allows users to dynamically process queries and return results that can be used as variables in Grafana dashboards. It supports basic mathematical calculations, string processing, range generation, and list generation, providing a flexible way to define and manipulate data.",
     "author": {
-      "name": "Smark"
+      "name": "smarkm"
     },
     "keywords": ["datasource"],
     "logos": {
