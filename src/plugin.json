@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Grafana-Var-Calculator",
+  "id": "smark-grafana-var-calculator-datasource",
+  "info": {
+    "description": "This Grafana data source plugin allows users to dynamically process queries and return results that can be used as variables in Grafana dashboards. It supports basic mathematical calculations, string processing, range generation, and list generation, providing a flexible way to define and manipulate data.",
+    "author": {
+      "name": "Smark"
+    },
+    "keywords": ["datasource"],
+    "logos": {
+      "small": "img/logo.png",
+      "large": "img/logo.png"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.4.0",
+    "plugins": []
+  }
+}
