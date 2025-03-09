@@ -1,4 +1,5 @@
 release:
+	yarn build
 	rm -rf smarkm-varcalculator-datasource/*
 	cp -r dist/* smarkm-varcalculator-datasource/
 	zip -r smarkm-varcalculator-datasource.v0.0.1.zip smarkm-varcalculator-datasource
