@@ -1,4 +1,4 @@
-import { getBackendSrv, getTemplateSrv, isFetchError } from '@grafana/runtime';
+import { getBackendSrv, getTemplateSrv } from '@grafana/runtime';
 import {
   CoreApp,
   DataQueryRequest,
